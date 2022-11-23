@@ -1,0 +1,27 @@
+\section{Spatial Data Analysis}
+
+\subsection{Hierarchichal Modeling and Analysis for Spatial Data\cite{banerjee2015}}
+
+\begin{enumerate}
+    \item Overview of spatial data problems
+    
+    \ Spatial data has three possible different forms: 
+    point referenced data, areal data, and point pattern data.
+    Let $D \subset \mathbb{R}^d$ be a set of locations.
+    If the data can be described as $Y(s_i)$ where $s_i \in D$ and $s_i$ is deterministic,
+    then it belongs to the class of point referenced data.
+    Instead of the exact location, imagine that the information in $B_i \in 2^D$ is given.
+    We call this case as an areal data.
+    When $D$ is a random set, then it is a point pattern data.
+
+    \ For point referenced data, it is natural to think that $Cov\left ( Y(s_i), Y(s_j) \right )$ 
+    is a function of a distance between $s_i$ and $s_j$.
+    The most convenient approach is assuming
+    \[
+        \begin{split}
+            &(Y(s_i), \dots, Y(s_m)) \sim N_m \left ( \mu, \Sigma \right )\\
+            &(\Sigma)_{ij} = \sigma^2 e^{-\phi d_{ij}^\kappa} + \tau^2 I(i=j)
+        \end{split}
+    \]
+    where $\tau^2$ is called a \emph{nugget effect}.
+\end{enumerate}
