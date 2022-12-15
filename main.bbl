@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{ainsworth2021}
+Mark Ainsworth and Yeonjong Shin.
+\newblock Plateau phenomenon in gradient descent training of relu networks:
+  Explanation, quantification, and avoidance.
+\newblock {\em SIAM Journal on Scientific Computing}, 43(5):A3438--A3468, 2021.
+
 \bibitem{banerjee2015}
 Sudipto Banerjee, Bradley~P. Carlin, and Alan~E Gelfand.
 \newblock {\em Hierarchical Modeling and Analysis for Spatial Data, Second
@@ -12,5 +18,16 @@ Paul~W. Holland.
 \newblock Statistics and causal inference.
 \newblock {\em Journal of the American Statistical Association},
   81(396):945--960, 1986.
+
+\bibitem{DeepONet}
+Lu~Lu, Pengzhan Jin, Guofei Pang, Zhongqiang Zhang, and George~Em Karniadakis.
+\newblock {Learning nonlinear operators via DeepONet based on the universal
+  approximation theorem of operators}.
+\newblock {\em Nature Machine Intelligence}, 3(3):218--229, 2021.
+
+\bibitem{DeepONet-extrapolation}
+Min Zhu, Handi Zhang, Anran Jiao, George~Em Karniadakis, and Lu~Lu.
+\newblock Reliable extrapolation of deep neural operators informed by physics
+  or sparse observations, 2022.
 
 \end{thebibliography}

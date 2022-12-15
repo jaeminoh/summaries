@@ -487,3 +487,55 @@ eprint = {https://ehp.niehs.nih.gov/doi/pdf/10.1289/ehp.1003198}
    volume =    {},
    url =       {http://gen.lib.rus.ec/book/index.php?md5=ee60a1077624ddac0ebb2042fdf2098e}
 }
+
+@article{ainsworth2021,
+author = {Ainsworth, Mark and Shin, Yeonjong},
+title = {Plateau Phenomenon in Gradient Descent Training of RELU Networks: Explanation, Quantification, and Avoidance},
+journal = {SIAM Journal on Scientific Computing},
+volume = {43},
+number = {5},
+pages = {A3438-A3468},
+year = {2021},
+doi = {10.1137/20M1353010},
+URL = { 
+        https://doi.org/10.1137/20M1353010
+},
+eprint = { 
+        https://doi.org/10.1137/20M1353010
+}
+,
+    abstract = { The ability of neural networks to provide “best in class” approximation across a wide range of applications is well documented. Nevertheless, the powerful expressivity of neural networks comes to naught if one is unable to effectively train (choose) the parameters defining the network. In general, neural networks are trained by gradient descent--type optimization methods or a stochastic variant thereof. In practice, such methods result in the loss function decreases rapidly at the beginning of training but then, after a relatively small number of steps, significantly slow down. The loss may even appear to stagnate over the period of a large number of epochs, only to then suddenly start to decrease fast again for no apparent reason. This so-called plateau phenomenon manifests itself in many learning tasks. The present work aims to identify and quantify the root causes of plateau phenomenon. The analysis is carried out in the setting of univariate rectified linear unit networks. No assumptions are made on the number of neurons relative to the number of training data, and our results hold for both the lazy and adaptive regimes. The main findings are plateaus correspond to periods during which activation patterns remain constant, where activation pattern refers to the number of data points that activate a given neuron; quantification of convergence of the gradient flow dynamics; and characterization of stationary points in terms solutions of local least squares regression lines over subsets of the training data. Based on these conclusions, we propose a new iterative training method, the active neuron least squares, characterized by the explicit adjustment of the activation pattern at each step, which is designed to enable a quick exit from a plateau. Illustrative numerical examples are included throughout. }
+}
+
+@misc{DeepONet-extrapolation,
+  doi = {10.48550/ARXIV.2212.06347},
+  
+  url = {https://arxiv.org/abs/2212.06347},
+  
+  author = {Zhu, Min and Zhang, Handi and Jiao, Anran and Karniadakis, George Em and Lu, Lu},
+  
+  keywords = {Machine Learning (cs.LG), Computational Physics (physics.comp-ph), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Physical sciences, FOS: Physical sciences},
+  
+  title = {Reliable extrapolation of deep neural operators informed by physics or sparse observations},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
+}
+
+@article{DeepONet,
+abstract = {It is widely known that neural networks (NNs) are universal approximators of continuous functions. However, a less known but powerful result is that a NN with a single hidden layer can accurately approximate any nonlinear continuous operator. This universal approximation theorem of operators is suggestive of the structure and potential of deep neural networks (DNNs) in learning continuous operators or complex systems from streams of scattered data. Here, we thus extend this theorem to DNNs. We design a new network with small generalization error, the deep operator network (DeepONet), which consists of a DNN for encoding the discrete input function space (branch net) and another DNN for encoding the domain of the output functions (trunk net). We demonstrate that DeepONet can learn various explicit operators, such as integrals and fractional Laplacians, as well as implicit operators that represent deterministic and stochastic differential equations. We study different formulations of the input function space and its effect on the generalization error for 16 different diverse applications.},
+author = {Lu, Lu and Jin, Pengzhan and Pang, Guofei and Zhang, Zhongqiang and Karniadakis, George Em},
+doi = {10.1038/s42256-021-00302-5},
+issn = {2522-5839},
+journal = {Nature Machine Intelligence},
+number = {3},
+pages = {218--229},
+title = {{Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators}},
+url = {https://doi.org/10.1038/s42256-021-00302-5},
+volume = {3},
+year = {2021}
+}
+
